@@ -1,9 +1,0 @@
-# Simple data preprocessing example
-
-data = ["  Apple", "Banana  ", "  Mango  ", "Orange"]
-
-# Clean data
-cleaned_data = [item.strip().lower() for item in data]
-
-print("Original Data:", data)
-print("Cleaned Data:", cleaned_data)
